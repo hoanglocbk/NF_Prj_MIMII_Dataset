@@ -42,7 +42,7 @@ exec(open(fp).read())
 fp = package_file_folder(BASE_FOLDER, 'feature_extractore_pre_nnFilterDenoise.py') 
 exec(open(fp).read())
 ##-
-fp = package_file_folder(BASE_FOLDER, '\WPE_by_TengXiang\wpe.py') 
+fp = package_file_folder(BASE_FOLDER, '/WPE_by_TengXiang/wpe.py')
 exec(open(fp).read())
 
 
