@@ -61,7 +61,7 @@ class feature_extractor_pre_nnFilterDenoise(feature_extractor):
     
     def get_wav_memory_file(self):
         # move taransforamtion to time here
-        wmf = feature_extractor_memory_wave_file()
+        wmf = memory_wave_file()
         wmf.filepath = self.para_dict['wave_filepath']
         wmf.channel = self.feature_data
         wmf.srate= self.para_dict['wave_srate']
